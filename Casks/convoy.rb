@@ -4,12 +4,12 @@ cask "convoy" do
 
   on_macos do
     on_intel do
-      sha256 "bfb2bf9582576f2b575feca0137f1118b3f4d8ceb423634dbda29f09422221e5"
-      url "https://github.com/endeavordata/convoy/releases/download/v#{version}/convoy_#{version}_darwin_amd64.tar.gz"
+      sha256 "9630f37b49506fe1613d53aef6e17501ad84695cfae6df5120e753aa0b9b8c16"
+      url "https://github.com/endeavordata/homebrew-tap/releases/download/v#{version}/convoy_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "41ad2e433bc4a8f3118c8327c9fc5b2477becdcbd7a0983576aff7538e6faf88"
-      url "https://github.com/endeavordata/convoy/releases/download/v#{version}/convoy_#{version}_darwin_arm64.tar.gz"
+      sha256 "f675bfd59aa589e1e3d1c30a2234227498511db8f984963a3475400f1bbebc6e"
+      url "https://github.com/endeavordata/homebrew-tap/releases/download/v#{version}/convoy_#{version}_darwin_arm64.tar.gz"
     end
   end
 
